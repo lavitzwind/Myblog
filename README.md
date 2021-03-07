@@ -1,1 +1,2 @@
-# Myblog
+# 💻Blog - Platzi
+Personal blog
