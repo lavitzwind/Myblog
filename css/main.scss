@@ -71,6 +71,28 @@ nav {
     }
 }
 
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+
+    section {
+        display: grid;
+        grid-column: 2;
+        justify-content: center;
+        height: 350px;
+        margin-top: 80px;
+    }
+
+    .home-main-text {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        color: black;
+        text-align: center;
+    }
+}
+
 
 
 
