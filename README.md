@@ -1,2 +1,2 @@
 # 💻Blog - Platzi
-Personal blog
+Personal blog.
