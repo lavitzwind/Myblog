@@ -4,17 +4,22 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    
 }
 
 a {
     text-decoration: none;
     display: inline;
     color: black;
+}
+
+.home-body {
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 header {
@@ -134,8 +139,16 @@ nav {
                 grid-column: 1;
 
                 img {
-
+                    width: 85%
+                    
                 }
+
+            }
+
+            .blogs-buttom {
+                border: 1px solid #47cfac;
+                padding: 10px 15px;
+                font-size: 12px;
             }
         }
 
@@ -148,7 +161,22 @@ nav {
         }
     }
 
+    .blogs-posts-container {
+        padding: 0 50px 40px;
 
+        h3 {
+            border-bottom: 1px solid #cdd2da;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .blogs-buttom {
+            border: 1px solid #47cfac;
+            padding: 10px 15px;
+            font-size: 12px;
+        }
+
+    }
 }
 
 
