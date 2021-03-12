@@ -308,8 +308,11 @@ footer p {
   text-align: center;
 }
 
-.profile-main-proyects .projects-main-container {
+.projects-main-container {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 /*# sourceMappingURL=main.css.map */
