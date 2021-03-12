@@ -1,0 +1,47 @@
+@media (max-width: 900px) {
+  .blogs-main {
+    display: -ms-grid;
+    display: grid;
+  }
+  .blogs-main .blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+  }
+  .blogs-main .blogs-news-container .blogs-main-new {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 3fr;
+        grid-template-rows: 3fr;
+  }
+  .blogs-main .blogs-news-container .blogs-main-new .blogs-news-img-container {
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .blogs-main .blogs-news-container .blogs-main-new .blogs-news-info-container {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+  .blogs-posts-container .post-container {
+    max-width: 45%;
+  }
+  .profile-main-proyects .projects-main-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 2fr;
+        grid-template-rows: 2fr;
+  }
+  .profile-main-proyects .projects-main-container .projects-container {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .blogs-main .blogs-posts-container .post-container {
+    max-width: 95%;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */
